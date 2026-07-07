@@ -1,0 +1,106 @@
+DETypeSplitImproved:
+  main:
+    key0_0: { top: {remove: true}, bottom: {remove: true}, left: {remove: true}, right: {remove: true}, center: { text: "w" }}
+    key0_1: { top: {remove: true}, bottom: {remove: true}, left: {remove: true}, right: {remove: true}, center: { text: "r" } }
+    key0_2: {backgroundColor: SURFACE,  top: {remove: true}, bottom: {remove: true}, topLeft: {remove: true}, bottomLeft: {remove: true}, topRight: {remove: true}, bottomRight: {remove: true}, left: {remove: true}, right: {remove: true}, center: { text: "t" } }
+    key0_3: { top: {remove: true}, bottom: {remove: true}, left: {remove: true}, right: {remove: true}, center: { text: "k" } }
+    key0_4: { top: {remove: true}, bottom: {remove: true}, left: {remove: true}, right: {remove: true}, center: { text: "p" } }
+
+    key1_0: { bottom: {remove: true}, left: {remove: true}, right: {remove: true}, center: { text: "a" }, top: { text: "ā" } }
+    key1_1: { bottom: {remove: true}, left: {remove: true}, right: {remove: true}, center: { text: "e" }, top: { text: "ē" } }
+    key1_2: { backgroundColor: SURFACE,  bottom: {remove: true}, left: {remove: true}, right: {remove: true}, center: { text: "u" }, top: { text: "ū" } }
+    key1_3: { bottom: {remove: true}, left: {remove: true}, right: {remove: true}, center: { text: "i" } , top: { text: "ī" }}
+    key1_4: { bottom: {remove: true}, left: {remove: true}, right: {remove: true}, center: { text: "o" } , top: { text: "ō" }}
+
+    key2_1: { top: {remove: true}, bottom: {remove: true}, left: {remove: true}, right: {remove: true}, center: { text: "g" } }
+    key2_2: {backgroundColor: SURFACE,  top: {remove: true}, bottom: {remove: true}, left: {keyAction: Left}, right: {keyAction: Right}, center: { text: "h" } }
+    key2_3: { top: {remove: true}, bottom: {remove: true}, left: {remove: true}, right: {remove: true}, center: { text: "n" } }
+    key2_4: { top: {remove: true}, bottom: {remove: true}, left: {remove: true}, right: {remove: true}, center: { text: "m" } }
+
+    key2_0: 
+      backgroundColor: SURFACE_VARIANT
+      center:
+        keyAction: Delete 
+      bottom:
+        text: "-"
+      top:
+        keyAction: ToggleShiftModeTrue 
+      right:
+        text: "'"
+    key3_0:
+      center:
+        keyAction: ToggleNumericMode 
+    
+    key3_1:
+      bottom:
+        keyAction: Noop
+      top:
+        keyAction:  Noop
+      right:
+         keyAction:  
+      left:
+         keyAction:  
+
+    key3_2:
+      top:
+        text: "!"
+      left:
+        text: "?"
+
+
+  shifted:
+    key0_0: { top: {remove: true}, bottom: {remove: true}, left: {remove: true}, right: {remove: true}, center: { text: "W" }}
+    key0_1: { top: {remove: true}, bottom: {remove: true}, left: {remove: true}, right: {remove: true}, center: { text: "R" } }
+    key0_2: {backgroundColor: SURFACE_VARIANT,   center: { text: "T" } }
+    key0_3: { top: {remove: true}, bottom: {remove: true}, left: {remove: true}, right: {remove: true}, center: { text: "K" } }
+    key0_4: { top: {remove: true}, bottom: {remove: true}, left: {remove: true}, right: {remove: true}, center: { text: "P" } }
+
+    key1_0: { bottom: {remove: true}, left: {remove: true}, right: {remove: true}, center: { text: "A" }, top: { text: "Ā" } }
+    key1_1: { bottom: {remove: true}, left: {remove: true}, right: {remove: true}, center: { text: "E" }, top: { text: "Ē" } }
+    key1_2: {backgroundColor: SURFACE,  bottom: {remove: true}, left: {remove: true}, right: {remove: true}, center: { text: "U" }, top: { text: "Ū" } }
+    key1_3: { bottom: {remove: true}, left: {remove: true}, right: {remove: true}, center: { text: "I" } , top: { text: "Ī" }}
+    key1_4: { bottom: {remove: true}, left: {remove: true}, right: {remove: true}, center: { text: "O" } , top: { text: "Ō" }}
+
+    key2_1: { top: {remove: true}, bottom: {remove: true}, left: {remove: true}, right: {remove: true}, center: { text: "G" } }
+    key2_2: {backgroundColor: SURFACE,  top: {remove: true}, bottom: {remove: true}, left: {keyAction: Left}, right: {keyAction: Right}, center: { text: "H" } }
+    key2_3: { top: {remove: true}, bottom: {remove: true}, left: {remove: true}, right: {remove: true}, center: { text: "N" } }
+    key2_4: { top: {remove: true}, bottom: {remove: true}, left: {remove: true}, right: {remove: true}, center: { text: "M" } }
+    
+    key2_0:
+      backgroundColor: MUTED
+      center:
+        keyAction: Delete
+      bottom:
+        keyAction: ToggleShiftModeFalse
+      top:
+        keyAction: ToggleCapsLock
+      right:
+        text: "\""
+    key3_2:
+      top:
+        text: "!!"
+      left:
+        text: "!?"
+
+    key3_1:
+      top:
+        keyAction:  Noop
+      bottom:
+        keyAction:  Noop
+      right:
+         keyAction:  
+      left:
+         keyAction:  
+
+    key3_0:
+      center:
+        keyAction: ToggleNumericMode
+
+
+  numeric:
+     key3_0:
+       center:
+          keyAction: ToggleABCMode
+     key0_0:
+       center:
+          keyAction: ToggleEmojiMode
