@@ -5,6 +5,8 @@
 
 This is a rough-around-the-edges attempt, but with Android shutting down there may be a time limit. Suggestions and help welcome!
 
+The urgent part, before the Android shutdown, is installing the app.
+
 ## Installation
 
 1. Download and install Thumb-key for free from [here](https://github.com/dessalines/thumb-key/releases) (click on app-release.apk). It's also on the app store but at $32nzd
